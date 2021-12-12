@@ -1,0 +1,30 @@
+name: sample_video_player
+description: TextureWidgetの勉強の為にvideo_playerをベースに必要最低限の機能を再実装したもの
+version: 0.0.1
+homepage: https://github.com/mao-test-h/flutter_texture_widget_sample
+
+# NOTE: 調査目的のパッケージのために公開する意図はない
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.20.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.example.sample_video_player.sample_video_player
+        pluginClass: SampleVideoPlayerPlugin
+      ios:
+        pluginClass: SampleVideoPlayerPlugin
