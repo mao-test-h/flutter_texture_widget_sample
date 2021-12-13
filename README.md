@@ -3,7 +3,7 @@
 ![Flutter](https://img.shields.io/badge/Flutter-2.5.3-50c8fa)
 ![Dart](https://img.shields.io/badge/language-Dart%202.14.4-1b6ac0)
 
-![Android Studio](https://img.shields.io/badge/Android%20Studio-2002.3.1p4-4cd378)
+![Android Studio](https://img.shields.io/badge/Android%20Studio-2020.3.1p4-4cd378)
 ![Kotolin](https://img.shields.io/badge/language-Kotlin%201.6.0-brightgreen)
 
 ![Xcode](https://img.shields.io/badge/Xcode-13.0-blue)
